@@ -9,62 +9,91 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-            <a class="navbar-brand" href="index.html">Latitude</a>
-          </div>
-    
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            
-           
-            <ul class="nav navbar-nav navbar-right">
-              
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Max Temperature</a></li>
-                  <li><a href="#">Humidity</a></li>
-                  <li><a href="#">Cloudiness/a></li>
-                  <li><a href="#">Wind Speed</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Comparison</a></li>
-              <li><a href="#">Data</a></li>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header pad">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand bckgreen" href="index.html">Latitude</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         
+       
+        <ul class="nav navbar-nav navbar-right">
+          
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="max_temp_viz.html">Max Temperature</a></li>
+              <li><a href="humidity_viz.html">Humidity</a></li>
+              <li><a href="cloudiness_viz.html">Cloudiness/a></li>
+              <li><a href="wind_speed_viz.html">Wind Speed</a></li>
             </ul>
-          </div>
-          <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-      </nav>
+          </li>
+          <li><a href="comparison_viz.html">Comparison</a></li>
+          <li><a href="data_viz.html">Data</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
 
       <!-- Creates the Overall Grid -->
      <div class="container">
          <!-- Row 4 -->
-       
+         <div class="page-header">
+            <h2>Comparison: Latitude vs.X</h2>
+            
+            
+         </div>
+         <p>click on any plot to get in-depth details</p>
                 <div class="row">
-                        <div class="col-md-6"><a href="max_temp_viz.html" class="thumbnail">
+                        <div class="col-md-6">
+                            <div class="caption padComp">
+                                <h3>vs Max Temperature</h3>
+                              
+                            </div>
+                          <a href="max_temp_viz.html" class="thumbnail">
                                 <img src="City_Lat_vs_Max_tmp.png" alt="...">
-                                </a></div>
-                        <div class="col-md-6"><a href="humidity_viz.html" class="thumbnail">
+                          </a>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="caption">
+                                <h3>vs Humidity</h3>
+                              
+                          </div>
+                          <a href="humidity_viz.html" class="thumbnail">
                                 <img src="City_Lat_vs_Humidity.png" alt="...">
-                                </a></div>
+                          </a>
+                        </div>
                 </div>
                 <div class="row">
-                        <div class="col-md-6"> <a href="cloudiness_viz.html" class="thumbnail">
+                        <div class="col-md-6"> 
+                          <div class="caption">
+                                <h3>vs Cloudiness</h3>
+                              
+                          </div>
+                          <a href="cloudiness_viz.html" class="thumbnail">
                                 <img src="City_Lat_vs_Cloudiness.png" alt="...">
-                                </a></div>
-                        <div class="col-md-6"><a href="wind_speed_viz.html" class="thumbnail">
+                          </a>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="caption">
+                                <h3>vs Wind Speed</h3>
+                              
+                          </div>
+                          <a href="wind_speed_viz.html" class="thumbnail">
                                 <img src="City_Lat_vs_Wind_Speed.png" alt="...">
-                                </a></div>
+                          </a>
+                        </div>
                 </div>
            
           

@@ -1,28 +1,34 @@
-.blueline {
-    color: blue;
+
+
+.bckgreen {
+    background-color: LightSeaGreen;
+    
 }
 
-.greenline {
-    color: green;
+h2,h3{
+    color: LightSeaGreen;
+
 }
 
-.boldline {
-    font-weight: bold;
+h3{
+    text-align: center; 
 }
 
-.smallfont {
-    font-size: 12px;
-}
-
-.borderbox {
-    border-width: 2px;
-    border-color: black;
-    border-style: dotted;
+.pad {
     padding-left: 20px;
 }
 
-.frogimg {
-    width: 45%;
+
+
+.borderbox {
+    border-width: 2px;
+    border-color: LightSeaGreen;
+   
+    padding-left: 20px;
+}
+
+.mainimg {
+    width: 40%;
     float: left;
 }
 
